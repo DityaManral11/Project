@@ -23,6 +23,10 @@
       <img src="images/Logo.png" alt="">
     </div>
 
+    <div class="menu-toggle">
+      ☰
+    </div>
+
     <nav>
       <ul class="nav-links">
         <li><a href="#" class="active">Home</a></li>
@@ -39,7 +43,7 @@
         Contact Us
     </button>
 
-  </header>
+  </header><br><br><br><br>
 
 
 
@@ -52,7 +56,7 @@
     <div class="hero-left">
 
       <h1>
-        Simplifying
+        Simplifying <br>
         <span class="blue-text">
           Compliance
           <img src="images/underline-Vector.png" alt="">
@@ -63,9 +67,9 @@
 
       <p>
         Stay focused on your insights — we'll handle the compliance.
-        Our expert solutions ensure your research practices meet every
-        regulatory requirement with confidence and ease.
-      </p>
+        Our expert <br> solutions ensure your research practices meet every
+        regulatory<br> requirement with confidence and ease.
+      </p><br>
 
 
       <!-- CHECKLIST -->
@@ -135,11 +139,11 @@
   <img class="top-arrow" src="images/Vector2.png" alt="">
 
 
-  <h2>
+  <h1>
     Why
-    <span>Compliance Matters</span>
+    <span>Compliance Matters</span><br>
     For Research Analysts
-  </h2>
+  </h1>
 
 
   <!-- MAIN IMAGE -->
@@ -161,42 +165,56 @@
 
       <p>
         In today's regulatory environment, even a small oversight can
-        lead to penalties, reputational risks, and loss of client trust. We help research analysts and firms navigate complex compliane requirements so they can focus on delivering high-quality research without worry.
+        lead to <br> penalties, reputational risks, and loss of client trust. We help research <br> analysts and firms navigate complex compliane requirements so they<br> can focus on delivering high-quality research without worry.
       </p>
-
+      <br><br><br>
 
 
       <div class="card">
-        <h3>Regulatory Clarity</h3>
-
+        <img src="images/Regulatory Clarity.png" alt="">
+        <div>
+          <h2>Regulatory Clarity</h2><br>
         <p>
-          We decode complex compliance rules into actionable steps.
+          We decode complex compliance rules into simple, <br> actionable steps.
         </p>
+        </div>
       </div>
 
 
 
       <div class="card">
-        <h3>Hassle-Free Filings</h3>
-
+        <img src="images/Hassle-Free Filings Clarity.png" alt="">
+        <div>
+          <h2>Hassle-Free Filings Clarity</h2><br>
         <p>
           From registration to ongoing reporting — we manage it end-to-end.
         </p>
+        </div>
       </div>
 
 
-
       <div class="card">
-        <h3>Risk Protection</h3>
-
+        <img src="images/Risk Protection.png" alt="">
+        <div>
+          <h2>Risk Protection</h2><br>
         <p>
           Stay ahead of audits, inspections, and compliance gaps with proactive support.
         </p>
+        </div>
       </div>
 
     </div>
 
   </section>
+  <script>
 
+const menuToggle = document.querySelector(".menu-toggle");
+const navLinks = document.querySelector(".nav-links");
+
+menuToggle.addEventListener("click", () => {
+  navLinks.classList.toggle("active");
+});
+
+</script>
 </body>
 </html>
